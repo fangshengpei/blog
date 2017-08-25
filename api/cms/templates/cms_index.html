@@ -1,0 +1,14 @@
+{% extends "cms_base.html" %}
+{%load static%}
+
+{% block titleblock %}
+	后台管理cms首页
+{% endblock titleblock %}
+
+{% block bodyblock %}
+	{{ block.super }}
+	<div style="height=200px;background:pink;padding:100px;">
+		这里是首页
+	</div>
+{% endblock bodyblock %}
+
